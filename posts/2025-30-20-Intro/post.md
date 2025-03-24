@@ -1,13 +1,13 @@
 ---
 title: "Introducing: Katnip! «Initial Release»"
 excerpt: "Introducing Katnip, a Transpiled, text-based version of Scratch for the web!"
-coverImage: "./assets/cover.png"
+coverImage: "/assets/cover.png"
 date: "2025-03-20T23:10:00.000-05:00"
 author:
   name: B1j2754
   picture: "https://avatars.rotur.dev/b1j2754"
 ogImage:
-  url: "./assets/cover.png"
+  url: "/assets/cover.png"
 ---
 
 # Introducing Katnip: A Transpiled, Text-Based Version of Scratch for the Web!
@@ -18,7 +18,7 @@ We are excited to announce the **initial release of Katnip**, cool new project a
 
 Katnip is a programming language designed to give users the ability to create interactive projects just like Scratch, but with the flexibility and power of text-based code. Unlike the traditional Scratch block-based interface, Katnip allows for more precise control and scalability, ideal for users who want to write code without worrying about the visual (and **tedious** 😭) structure of blocks.
 
-![Katnip Cover](.\assets\cover.png)
+![Katnip Cover](/assets/cover.png)
 
 ### 🗝️ Key Features:
 - **Text-Based Syntax**: Instead of blocks, users write code in a simple, human-readable syntax.
