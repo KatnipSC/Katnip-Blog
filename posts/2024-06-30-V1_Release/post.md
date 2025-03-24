@@ -17,7 +17,7 @@ ogImage:
 
 ## Introducing... Katnip
 
-![Katnip Logo](.\assets\cover.png)
+![Katnip Logo](./assets/cover.png)
 
 # Official Website: [Katnip.org](https://katnip.org) 
 
