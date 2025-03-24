@@ -1,16 +1,17 @@
 ---
-title: "Introducing: Katnip! «Initial Release»"
-excerpt: "Introducing Katnip, a compiled, text-based version of Scratch for the web!"
-coverImage: "/assets/cover.png"
+title: "Katnip Initial Release!"
+excerpt: "Introducing Katnip, a transpiled, text-based version of Scratch for the web!"
+coverImage: "./assets/cover.png"
 date: "2024-06-30T20:52:22.000-05:00"
+lastUpdated: "2025-02-04T15:09:35.000-05:00"
 author:
   name: B1j2754
-  picture: "/avatars/b1j2754.jpg"
+  picture: "https://avatars.rotur.dev/b1j2754"
 ogImage:
-  url: "/assets/cover.png"
+  url: "./assets/cover.png"
 ---
 
-### This post was transcribed from the [Katnip Scratch Forums](https://scratch.mit.edu/discuss/topic/769174/?page=1#post-8035551)
+### Notice: This post was transcribed from the [Katnip Scratch Forums](https://scratch.mit.edu/discuss/post/8035551)
 
 # Katnip - Text-based coding language for Scratch
 

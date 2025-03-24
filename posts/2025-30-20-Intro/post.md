@@ -1,16 +1,16 @@
 ---
 title: "Introducing: Katnip! «Initial Release»"
-excerpt: "Introducing Katnip, a compiled, text-based version of Scratch for the web!"
-coverImage: "/assets/cover.png"
+excerpt: "Introducing Katnip, a Transpiled, text-based version of Scratch for the web!"
+coverImage: "./assets/cover.png"
 date: "2025-03-20T23:10:00.000-05:00"
 author:
   name: B1j2754
   picture: "https://avatars.rotur.dev/b1j2754"
 ogImage:
-  url: "/assets/cover.png"
+  url: "./assets/cover.png"
 ---
 
-# Introducing Katnip: A Compiled, Text-Based Version of Scratch for the Web!
+# Introducing Katnip: A Transpiled, Text-Based Version of Scratch for the Web!
 
 We are excited to announce the **initial release of Katnip**, cool new project aimed at providing a link between Scratch and real-world programming languages!
 
@@ -22,11 +22,11 @@ Katnip is a programming language designed to give users the ability to create in
 
 ### 🗝️ Key Features:
 - **Text-Based Syntax**: Instead of blocks, users write code in a simple, human-readable syntax.
-- **Compiling for Web**: Katnip projects are compiled to sb3, which can be run directly either in Scratch or through Katnip's project vm.
+- **Compiling for Web**: Katnip projects are transpiled to sb3, which can be run directly either in Scratch or through Katnip's project vm.
 - **Easy to Learn**: Designed to be beginner-friendly but powerful enough for advanced projects.
 - **Large Skill Ceiling**: Though beginner-friendly, don't let it fool you. Katnip is very powerful!!
 - **Extension and Library support**: Following in Python's footsteps, custom Katnip libraries and extensions are availible, expanding the possibilities even futher
-- **Custom Compiled Blocks**: Ever needed a resuable block that takes 100s of blocks? Write it instead once with a script that compiles at runtime!
+- **Custom Transpiled Blocks**: Ever needed a resuable block that takes 100s of blocks? Write it instead once with a script that compiles at runtime!
 
 ## 🔨 How It Works
 

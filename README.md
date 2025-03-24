@@ -28,17 +28,19 @@ katnip-blog/
 
 ## How to Format Your Post?
 
-1. The post should be in Markdown format.
-2. The post should have a cover image.
-3. Any additional images should be placed in the `/assets` folder.
-4. The post should begin with metadata in the following format:
+* Create a folder in `/posts/` in the format: `YYYY-MM-DD-Name_Here_In_Snakecase`
+* The post should be in Markdown format.
+* The post should have a cover image.
+* Any additional images should be placed in the `/posts/[postName]/assets` folder.
+* The post should begin with metadata in the following format:
 
 ```yaml
 ---
 title: "Title"
 excerpt: "This is a post"
 coverImage: "/assets/cover.png"
-date: "2025-03-20T23:10:00.000-05:00"
+date: "2025-03-20T23:10:00.000-HH:MM"
+lastUpdated: "YYY-MM-DDTHH:MM:SS.SSS-HH:MM"
 author:
   name: Name
   picture: "/avatars/avatar.jpg"
@@ -47,6 +49,7 @@ ogImage:
 ---
 ```
 
-5. The date and time should be adjusted to UTC time. So if you are in EST, you should add `-05:00` to your time of posting.
-6. The author picture should be placed in the `/avatars` folder. If you don't have a picture, add an avatar for youself in the `/avatars` folder inside of your post commit. Feel free to also just use a link to your avatar hosted on another websitem, such as `"https://avatars.rotur.dev/b1j2754"`
+* The date and time should be adjusted to UTC time. So if you are in EST, you should add `-05:00` to your time of posting.
+* The author picture should be placed in the `/avatars` folder. If you don't have a picture, add an avatar for youself in the `/avatars` folder inside of your post commit. Feel free to also just use a link to your avatar hosted on another websitem, such as `"https://avatars.rotur.dev/b1j2754"`; The `https://` part is very imporant, as it is how a link to an image is recognized.
+* ogImage is the display image for a thumbnail. I usually just set this to the cover image, but its perosnal choice
 

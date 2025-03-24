@@ -1,0 +1,24 @@
+---
+title: "Katnip V.2 Sneak Peek"
+excerpt: "Update 2.0 coming very soon!"
+coverImage: "./assets/cover.png"
+date: "2024-12-08T20:48:56.000-05:00"
+lastUpdated: "2024-12-8T23:49:01.000-05:00"
+author:
+  name: B1j2754
+  picture: "https://avatars.rotur.dev/b1j2754"
+ogImage:
+  url: "./assets/cover.png"
+---
+
+### Notice: This post was transcribed from the [Katnip Scratch Forums](https://scratch.mit.edu/discuss/post/8273040/)
+
+# Update 2.0 Coming <ins>_Very_</ins> Soon!  
+
+I wrote a longer message, but the forums kept erroring me out 😛  
+
+A bigger post (with more in-depth details) will be coming later this week, along with the release of 2.0!  
+
+## Here's a lil sneak peek of what's to come: 
+(Full block support, by the way, so it's actually viable to use 😂)   
+![Sneak_Peak](./assets/cover.png)
