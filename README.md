@@ -38,14 +38,14 @@ katnip-blog/
 ---
 title: "Title"
 excerpt: "This is a post"
-coverImage: "/assets/cover.png"
+coverImage: "./assets/cover.png"
 date: "2025-03-20T23:10:00.000-HH:MM"
 lastUpdated: "YYY-MM-DDTHH:MM:SS.SSS-HH:MM"
 author:
   name: Name
   picture: "/avatars/avatar.jpg"
 ogImage:
-  url: "/assets/cover.png"
+  url: "./assets/cover.png"
 ---
 ```
 
