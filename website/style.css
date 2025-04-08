@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Global css */
+:root {
+  color-scheme: light dark;
+  --bg-clr: light-dark(#fff, #121212);
+  --bg2-clr: light-dark(#e1e1e1, #282828);
+  --bg3-clr: light-dark(#c5c5c5, #575757);
+  
+  --loading: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+  
+  --text-unselected: light-dark(#000, #fff);
+  --text-selected: #4fb05d;
+  
+  --button-unselected: var(--bg3-clr);
+  --button-hovered: light-dark();
+  --button-selected: light-dark();
+}
+
+* {
+  transition: background 0.4s ease;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-unselected);
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--button-unselected);
+}
+
+button:hover {
+  color: var(--button-hovered);
+}
+
+button:focus {
+  color: var(--button-selected);
+}
+
+body {
+  background-color: var(--bg-clr);
+}
+
+@keyframes gradient-loop {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+.loading {
+  overflow: hidden;
+  background: var(--loading);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  animation: gradient-loop 12s linear infinite;
+}
+
+
+/* Toolbar related elements */
+#toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#search-bar {
+  --height: 40px;
+  height: var(--height);
+  width: 30%;
+  border-radius: calc(var(--height) / 2);
+  background: var(--bg2-clr);
+  margin-left: auto;
+  
+  display: flex;
+  align-items: center;
+}
+
+#search-icon {
+  margin-left: 10px;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+#search-input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  margin-right: 10px;
+  font-size: 1em;
+  color: var(--text-unselected);
+  font-weight:bold;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+#theme-toggle {
+  font-size: 40px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+/* Main body of content */
+#content {
+  display: flex;
+  gap: 20px;
+}
+
+/* Left blog nav */
+#blog-display-small {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 20%;
+}
+
+#blog-link {
+  
+}
+
+/* Main post thumbnail display area */
+#posts {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+#post-header {
+  --height: 40px;
+  height: var(--height);
+  border-top-left-radius: var(--height);
+  border-top-right-radius: var(--height);
+  
+  background: var(--bg2-clr);
+  
+  line-height: var(--height);
+  text-align: center;
+  
+  
+}
+
+.post {
+  width: auto;
+  height: 150px;
+  border-radius: 0px;
+}
+
+/* Sidebar elements */
+#sidebar {
+  width: 20%;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  outline: 2px solid green;
+  border-radius: 5px;
+}
